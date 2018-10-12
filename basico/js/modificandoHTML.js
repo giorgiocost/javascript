@@ -1,2 +1,5 @@
-modifica = prompt("Mudar para qual?");
-document.getElementById("textoModificado").innerHTML = modifica;
+
+function mudarTexto() {
+    modifica = document.getElementById("texto").value;
+    document.getElementById("textoModificado").innerHTML = modifica; 
+}
