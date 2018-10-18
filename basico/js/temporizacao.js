@@ -10,11 +10,14 @@ function segundoteste() {
 
 
 //loop
- var teste = setInterval(segundoteste,1000);
+ var timer = setInterval(segundoteste,1000);
 
 
  // stop setInterval
- clearInterval(teste);
+ clearInterval(timer);
+
+
+ //clearTimeout(timer);
 
 // executa uma vez só
 // setTimeout(segundoteste,1000);
